@@ -13,6 +13,9 @@
 		23E7CE0F1FCCC3F900AAC7FC /* shawdow_view_testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23E7CE0D1FCCC3F900AAC7FC /* shawdow_view_testing.xcdatamodeld */; };
 		23E7CE111FCCC3F900AAC7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E7CE101FCCC3F900AAC7FC /* Assets.xcassets */; };
 		23E7CE141FCCC3F900AAC7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E7CE121FCCC3F900AAC7FC /* LaunchScreen.storyboard */; };
+		23E7CE1C1FCCC41700AAC7FC /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7CE1B1FCCC41700AAC7FC /* ShadowView.swift */; };
+		23E7CE1E1FCCC60000AAC7FC /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7CE1D1FCCC60000AAC7FC /* DrawView.swift */; };
+		23E7CE201FCCFE9C00AAC7FC /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E7CE1F1FCCFE9C00AAC7FC /* Stroke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		23E7CE101FCCC3F900AAC7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23E7CE131FCCC3F900AAC7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23E7CE151FCCC3F900AAC7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23E7CE1B1FCCC41700AAC7FC /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		23E7CE1D1FCCC60000AAC7FC /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		23E7CE1F1FCCFE9C00AAC7FC /* Stroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				23E7CE061FCCC3F900AAC7FC /* AppDelegate.swift */,
 				23E7CE081FCCC3F900AAC7FC /* ViewController.swift */,
+				23E7CE1B1FCCC41700AAC7FC /* ShadowView.swift */,
+				23E7CE1D1FCCC60000AAC7FC /* DrawView.swift */,
+				23E7CE1F1FCCFE9C00AAC7FC /* Stroke.swift */,
 				23E7CE0A1FCCC3F900AAC7FC /* Main.storyboard */,
 				23E7CE101FCCC3F900AAC7FC /* Assets.xcassets */,
 				23E7CE121FCCC3F900AAC7FC /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E7CE1C1FCCC41700AAC7FC /* ShadowView.swift in Sources */,
+				23E7CE201FCCFE9C00AAC7FC /* Stroke.swift in Sources */,
+				23E7CE1E1FCCC60000AAC7FC /* DrawView.swift in Sources */,
 				23E7CE0F1FCCC3F900AAC7FC /* shawdow_view_testing.xcdatamodeld in Sources */,
 				23E7CE091FCCC3F900AAC7FC /* ViewController.swift in Sources */,
 				23E7CE071FCCC3F900AAC7FC /* AppDelegate.swift in Sources */,
@@ -277,8 +289,8 @@
 		23E7CE191FCCC3F900AAC7FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = "shawdow view testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.V.shawdow-view-testing";
@@ -291,8 +303,8 @@
 		23E7CE1A1FCCC3F900AAC7FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRB2RCLKP4;
 				INFOPLIST_FILE = "shawdow view testing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.V.shawdow-view-testing";
